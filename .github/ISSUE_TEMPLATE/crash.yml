@@ -22,11 +22,12 @@ body:
     -   type: textarea
         attributes:
             label: Crash Report
-            description: >
+            description: "
             We need the Crash Report to figure out why the crash happened.
-            This file can be found in the "crash-reports" folder of your Minecraft folder.
+            This file can be found in the \"crash-reports\" folder of your Minecraft folder.
             It will be the newest file there.
             Please upload the file to https://mclo.gs/ and put the link here.
+            "
         validations:
             required: true
 
