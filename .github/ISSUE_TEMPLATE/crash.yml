@@ -3,9 +3,9 @@ description: Report an issue that crashes the game.
 labels: [ "type: bug", "type: crash" ]
 body:
     -   type: checkboxes
-        label: What crashed?
         description: You may select more than one.
         attributes:
+            label: What crashed?
             options:
                 - label: Client
                 - label: Server
